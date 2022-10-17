@@ -1,0 +1,37 @@
+body {
+    background: rgba(75, 211, 116, 0.644);
+}
+
+
+* {
+    text-align:center
+}
+
+h1{
+color: rgb(75, 172, 123);
+
+}
+tr{
+color: rgb(211, 77, 77);
+font: 600;
+font-family: 'Times New Roman', Times, serif
+
+}
+select{
+background-color: blueviolet;
+color: grey;
+font: 400;
+}
+button{
+    color: rgb(235, 116, 195);
+    background-color: black;
+    font-size: small
+    }
+    p{
+        color: blue;
+        font: 500;
+        word-spacing: normal;
+        cursor: -moz-grab;
+        word-break: break-all;
+        size: 500;
+    }
