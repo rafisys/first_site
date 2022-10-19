@@ -1,28 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="menu.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <Style>
+    body{
+      width: auto;
+      text-align: center;
+      border: 50px solid;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      position: absolute;
+    }
+     input [type=text], select{
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 0 ;
+      display: 1px solid
+      
+      
+      
+    }
+     input[type=submit] {
+      width: 50%;
+      background-color: #4caf50;
+      color: purple;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      position: <center></center>;
+     }
+
+     input[type=submit]{
+      background-color: #45a049;
+
+     }
+     input{
+      width: 50%;
+      padding: 12pz 20px;
+      margin: 8px 20px;
+      display: 1px solid;
+      border-radius: 4px;
+      box-sizing: border-box;
+     }
+
+     div{
+      border-radius: 5px;
+      background-color: #45a049
+      padding:20px;
+     }
+      
+     body{
+      color: rgb(101, 84, 175);
+      position: fixed;
+     }
+     form {
+      margin: auto;
+     }
+
+
+      
+    
+
+  </Style>
 </head>
 <body>
+  <h3>Using css to </h3>
 
-    <header class="header">
-          <a href="/" class="logo" >CORP</a>
-          <input  class="menu-btn" type="checkbox" name="" id="menu-btn">
-          <label class="menu-btn"   for="menu-btn"> <span>nav-icon</span></label>
-          <ul class="menu">
-            <li><a href="#dont">dont</a></li>
-            <li><a href="#forgot">forgot</a></li>
-            <li><a href="#to">to</a></li>
-            <li><a href="#subs">subs</a></li>
+  <div>
+    <form action="/action-page.php">
+      <label for="fname">First name </label>
+      <input  type="text" name="Firstname" id="fname" placeholder="Your name">
+      <div>
 
-          </ul>
+      <label for="lname">Lastname</label>
+      <input type="text" name="Lastname" id="lname" placeholder="Last name">
+    </div>
+      <label for="country">country</label>
+      <input type="text" name="country" id="country" placeholder="Country">
+
+      <select name="country" id="Country">Country
+      <option value="Australia">Australia</option>
+      <option value="Canada">canada</option>
+      <option value="Usa">usa</option>
+    </select>
+
+    <input type="submit" name="" id="submit">
 
 
 
-
-
-
-    </header>
-    
+    </form>
+  </div>
 </body>
 </html>

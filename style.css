@@ -27,11 +27,18 @@ button{
     background-color: black;
     font-size: small
     }
-    p{
-        color: blue;
-        font: 500;
-        word-spacing: normal;
-        cursor: -moz-grab;
-        word-break: break-all;
-        size: 500;
+    .box{
+        margin:60px;
+
+        background: rgb(177, 178, 196);
+
+        width: 600px;
+
+        margin-left: 200px;
+        margin-top: 60px;
+
+        border-style: solid;
+        padding: 50px;
+        padding-left: 60px;
+        padding-right:0ch
     }
